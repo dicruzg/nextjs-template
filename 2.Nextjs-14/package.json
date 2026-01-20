@@ -1,0 +1,24 @@
+{
+    "name": "agon",
+    "version": "6.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "sass": "sass --watch public/assets/scss/main.scss:public/assets/css/main.css"
+    },
+    "dependencies": {
+        "next": "14.2.14",
+        "rc-slider": "^11.1.7",
+        "react": "18.3.1",
+        "react-countup": "^6.5.3",
+        "react-dom": "18.3.1",
+        "react-perfect-scrollbar": "^1.5.8",
+        "react-visibility-sensor": "^5.1.1",
+        "sass": "^1.79.4",
+        "swiper": "^11.1.14",
+        "wowjs": "^1.1.3"
+    }
+}
